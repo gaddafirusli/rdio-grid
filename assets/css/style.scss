@@ -3,9 +3,14 @@
 	padding: 0;
 	margin:0;
 }
-
+html{
+ height: 100%;
+}
 body {
   background:#fff;
+   height: 100%;
+   width: 100%;
+	text-align:center;
 }
 
 .wrapper{
@@ -15,7 +20,7 @@ body {
 
 .grid{
 	margin: 0 10px 25px;
-	float: left;
+	display: inline-block;
 	img{
 		width: 100%;
 		margin-bottom: 5px;
