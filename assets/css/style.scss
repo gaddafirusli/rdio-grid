@@ -1,0 +1,26 @@
+/* Write your CSS! */
+*{
+	padding: 0;
+	margin:0;
+}
+
+body {
+  background:#fff;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+
+.grid{
+	margin: 0 10px 25px;
+	float: left;
+	img{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	p{
+		margin:0;
+	}
+}
