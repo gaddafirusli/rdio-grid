@@ -1,37 +1,58 @@
 <!-- @include _header -->
 
   <section>
-    <!-- Write your HTML! -->
-        	<p>Window width: <em id="ww">#</em></p>
-        	<p>wrapper width: <em id="wrw">#</em></p>
-    	<p># of columns: <em id="col">#</em></p>
-    	<p># of columns rounded: <em id="colrounded">#</em></p>
-    	<p>Grid width: <em id="grid">#</em></p>
+    <div class="stats">
+        <p class="set">
+            Set a minimum width of each grid<br />
+            <input id="mingrid" value="175"> px
+            <a href="#" id="update">Update</a>
+        </p>
+
+        <p>
+            <span id="wrw">#</span>
+            Width of grid <br />container
+        </p>
+        <p>
+            <span id="col">#</span>
+            Number of possible <br />columns
+        </p>
+        <p>
+            <span id="colrounded">#</span>
+            Number of possible  <br />columns (floored)
+        </p>
+        <p>
+            <span id="grid">#</span>
+            Width of each <br />grid (floored)
+        </p>
+
+    </div>
     <div class="wrapper">
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
-    	<div class="grid"><img src="http://www.placehold.it/200x200" /> <p>Sample Text</p></div>
+        <ul>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+            <li class="grid"><div class="box"><img src="http://www.placehold.it/200/3399CC/3399CC" /> <p>Sample Text</p></div></li>
+        </ul>
     </div>
 
   </section>

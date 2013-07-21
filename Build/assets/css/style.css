@@ -1,4 +1,3 @@
-/* Write your CSS! */
 * {
   padding: 0;
   margin: 0; }
@@ -7,19 +6,55 @@ html {
   height: 100%; }
 
 body {
-  background: #fff;
+  background: #eee;
   height: 100%;
   width: 100%;
   text-align: center; }
 
+.stats {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  bottom: 0;
+  padding-top: 6px; }
+  .stats p {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 12px;
+    vertical-align: top; }
+  .stats span {
+    display: block;
+    font-size: 18px;
+    padding: 0px 0 10px; }
+  .stats input {
+    width: 60px;
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 4px 4px 1px; }
+
 .wrapper {
   overflow: hidden; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
 .grid {
-  margin: 0 10px 25px;
-  display: inline-block; }
+  margin: 0;
+  display: block;
+  float: left;
+  background: #efefef; }
+  .grid .box {
+    width: 96%;
+    padding: 4% 2% 0;
+    margin: 0 auto; }
   .grid img {
-    width: 100%;
-    margin-bottom: 5px; }
+    vertical-align: bottom;
+    width: 100%; }
   .grid p {
-    margin: 0; }
+    margin: 0;
+    display: block;
+    padding: 10px;
+    font-size: 13px;
+    background: #333;
+    color: #eee; }
