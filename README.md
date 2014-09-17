@@ -8,4 +8,4 @@ As you resize the browser (or the desktop app), the album thumbnails and the gri
 (Note: The source requires Hammer app to compile. Build folder contains the built source.)
 
 
-Work in progress. Working demo can be seen here http://flisterz.github.io/rdio-grid/Build/
+Work in progress. Working demo can be seen here http://gaddafirusli.github.io/rdio-grid/Build/
